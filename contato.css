@@ -64,15 +64,13 @@ main {
     justify-content: center;
 }
 
-.main-section {
+.first-section {
     display: flex;
     flex-direction: row;
-    gap: 105px;
+    gap: 6.5625rem;
     align-self: center;
-}
-
-.first-section {
-    margin-bottom: 25px;
+    justify-content: center;
+    margin-bottom: 3.125rem;
 }
 
 .img {
