@@ -18,16 +18,11 @@ header {
     width: 100%;
     height: 10vh;
 }
-
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-}
-
-.menu {
-    display: none;
 }
 
 .logo {
@@ -62,16 +57,21 @@ nav {
 /*main*/
 main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #D9D9D9;
     width: 100%;
-    height: 84vh;
+    align-items: center;
     justify-content: center;
+    padding: 9.375rem 0 1.875rem;
 }
 
-.main-section {
+.first-section {
     display: flex;
-    gap: 105px;
+    flex-direction: row;
+    gap: 6.5625rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7.5rem;
 }
 
 .img {
@@ -83,7 +83,7 @@ main {
 
 .text {
     align-self: center;
-    width: 530px;
+    width: 450px;
 }
 /*end main*/
 
@@ -113,6 +113,3 @@ footer {
 }
 /*end footer*/
 
-@media (max-width: 1000px) {
-    
-}
