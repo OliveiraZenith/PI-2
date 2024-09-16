@@ -62,7 +62,23 @@ main {
     width: 100%;
     height: 84vh;
     justify-content: center;
+}
+
+.main-section {
+    display: flex;
     gap: 105px;
+}
+
+.img {
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text {
+    align-self: center;
+    width: 530px;
 }
 /*end main*/
 
