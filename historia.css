@@ -79,6 +79,7 @@ main {
 .text {
     align-self: center;
     width: 530px;
+    text-align: justify;
 }
 /*end main*/
 

@@ -88,6 +88,12 @@ main {
     padding-right: 1.5625rem;
     border-right: 1px solid;
     margin: 1.5625rem;
+    height: 23.4375rem;
+    align-content: center;
+ }
+
+ .link-cardapio {
+    padding-bottom: 3.75rem;
  }
 
  .link-cardapio > a {
@@ -104,17 +110,23 @@ main {
  .cardapio-table {
     display: flex;
     flex-direction: column;
+    align-self: center;
  }
 
  .cardapio {
     display: flex;
     flex-direction: row;
     gap: 3.75rem;
+    padding-bottom: 1.5625rem;
  }
 
  .text {
     width: 37.5rem;
  }
+
+ .hidden {
+    display: none;
+}
 /*end main*/
 
 /*footer*/
