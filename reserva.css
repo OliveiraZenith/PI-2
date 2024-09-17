@@ -89,6 +89,13 @@ legend {
     flex-direction: column;
     gap: 25px;
 }
+
+.border {
+    border-radius: 30px;
+    border: 1px solid #929292;
+    height: 45px;
+    padding: 0 25px;
+}
 /*end main*/
 
 /*footer*/
