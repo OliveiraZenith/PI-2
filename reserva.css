@@ -74,11 +74,12 @@ main {
 
 fieldset {
     margin: 25px 125px;
-    border: none;
+    border: none;    
 }
 
 legend {
-    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
     padding-bottom: 25px;
@@ -91,10 +92,62 @@ legend {
 }
 
 .border {
-    border-radius: 30px;
+    border-radius: 15px;
     border: 1px solid #929292;
     height: 45px;
-    padding: 0 25px;
+    padding: 0 55px;
+    font-weight: bold;
+    color: #929292;
+    font-size: 20px;
+}
+
+.number {
+    background-image: url(images/reserva/icon-peaple.png);
+    background-repeat: no-repeat;
+    background-position: 25px;
+}
+
+.date {
+    background-image: url(images/reserva/icon-calendar.png);
+    background-repeat: no-repeat;
+    background-position: 25px;
+}
+
+.time {
+    background-image: url(images/reserva/icon-time.png);
+    background-repeat: no-repeat;
+    background-position: 25px;
+}
+
+.text {
+    background-image: url(images/reserva/icon-name.png);
+    background-repeat: no-repeat;
+    background-position: 25px;
+}
+
+.email {
+    background-image: url(images/reserva/icon-email.png);
+    background-repeat: no-repeat;
+    background-position: 25px;
+}
+
+.textarea {
+    height: 85px;
+    padding-top: 10px;
+    resize: none;
+}
+
+.button {
+    width: 230px;
+    align-self: center;
+    color: black;
+    background-color: #D9D9D9;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #929090;
 }
 /*end main*/
 
