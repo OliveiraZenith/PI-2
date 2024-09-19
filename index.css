@@ -49,13 +49,13 @@ nav {
 
 .link > a {
     text-decoration: none;
-    color: black;
+    color: #8B4513;
     font-size: 24px;
     font-weight: bold;
 }
 
 .link > a:hover {
-    color: #929090;
+    color: #F7DBA7;
 }
 /*end nav*/
 
