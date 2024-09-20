@@ -4,6 +4,10 @@ html {
     width: 100%;
 }
 
+html, body {
+    height: 100%;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -60,6 +64,7 @@ main {
     background-color: #F7DBA7;
     width: 100%;
     justify-content: center;
+    height: calc(100% - 29vh);
 }
 
 .table-reserva {
@@ -199,3 +204,21 @@ footer {
 }
 /*end footer*/
 
+@media (max-height: 900px) {
+  
+    fieldset {
+        margin: 0.9375rem 7.8125rem;
+    }
+    
+    legend {
+        padding-bottom: 0.9375rem;
+    }
+    
+    .table {
+        gap: 0.9375rem;
+    }
+
+    .textarea {
+        height: 4.0625rem;
+    }
+}

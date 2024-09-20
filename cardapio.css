@@ -61,6 +61,7 @@ main {
     background-color: #F7DBA7;
     width: 100%;
     justify-content: center;
+    height: 71vh;
 }
 
 .main-section {
@@ -156,3 +157,12 @@ footer {
 }
 /*end footer*/
 
+@media (max-height: 900px) {
+    .main-section {
+        padding: 20px 70px 20px;
+    }
+    
+    .title {
+        padding-bottom: 10px;
+    }
+}
