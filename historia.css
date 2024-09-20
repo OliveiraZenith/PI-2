@@ -52,6 +52,12 @@ nav {
 .link > a:hover {
     color: #F7DBA7;
 }
+
+/*nav pagina atual*/
+.ative {
+    color: #F7DBA7 !important;
+}
+/*end nav pagina atual*/
 /*end nav*/
 
 /*main*/
