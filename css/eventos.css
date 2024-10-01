@@ -1,3 +1,13 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'rounded';
+    src: url(/fontes/Fredoka-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'rounded1';
+    src: url(/fontes/Quicksand-VariableFont_wght.ttf);
+}
+
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -12,22 +22,18 @@ html {
 
 /*nav*/
 header {
+    font-family: 'rounded';
     display: flex;
     flex-direction: row;
     background-color: #F3752B;
     width: 100%;
     height: 23vh;
 }
-
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-}
-
-.menu {
-    display: none;
 }
 
 .logo {
@@ -67,32 +73,44 @@ nav {
 
 /*main*/
 main {
+    font-family: 'rounded1';
+    color: #8B4513;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #F7DBA7;
     width: 100%;
-    height: 71vh;
+    align-items: center;
     justify-content: center;
+    padding: 9.375rem 0 1.875rem;
 }
 
-.main-section {
+.first-section {
     display: flex;
-    gap: 105px;
+    flex-direction: row;
+    gap: 6.5625rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7.5rem;
 }
 
 .img {
     align-self: center;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .text {
     align-self: center;
-    width: 530px;
+    width: 450px;
     text-align: justify;
 }
 /*end main*/
 
 /*footer*/
 footer {
+    font-family: 'rounded';
+    color: #8B4513;
     display: flex;
     flex-direction: row;
     background-color: #F3752B;
@@ -117,6 +135,3 @@ footer {
 }
 /*end footer*/
 
-@media (max-width: 1000px) {
-    
-}

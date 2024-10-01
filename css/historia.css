@@ -1,3 +1,14 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'rounded';
+    src: url(/fontes/Fredoka-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'rounded1';
+    src: url(/fontes/Quicksand-VariableFont_wght.ttf);
+}
+
+
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -12,13 +23,13 @@ html {
 
 /*nav*/
 header {
+    font-family: 'rounded';
     display: flex;
     flex-direction: row;
     background-color: #F3752B;
     width: 100%;
     height: 23vh;
 }
-
 nav {
     display: flex;
     flex-direction: row;
@@ -51,7 +62,7 @@ nav {
 }
 
 .link > a:hover {
-    color:#F7DBA7;
+    color: #F7DBA7;
 }
 
 /*nav pagina atual*/
@@ -63,83 +74,39 @@ nav {
 
 /*main*/
 main {
+    font-family: 'rounded1';
+    color: #8B4513;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #F7DBA7;
     width: 100%;
-    justify-content: center;
     height: 71vh;
+    justify-content: center;
 }
 
 .main-section {
-    background-color: #FFFFFF;
     display: flex;
-    flex-direction: column;
+    gap: 105px;
+}
+
+.img {
+    align-self: center;
+    align-items: center;
     justify-content: center;
-    align-self: center;
-    padding: 1.25rem 4.375rem 5.625rem;
-    border-radius: 20px;
-    margin: 1.5625rem 0;
+
 }
 
-.title {
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-.main-table {
-    display: flex;
-    flex-direction: row;
-}
-
- .links-cardapio {
-    padding-right: 1.5625rem;
-    border-right: 1px solid;
-    margin: 1.5625rem;
-    height: 23.4375rem;
-    align-content: center;
- }
-
- .link-cardapio {
-    padding-bottom: 3.75rem;
- }
-
- .link-cardapio > a {
-    text-decoration: none;
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
- }
-
- .link-cardapio > a:hover {
-    color: #929090;
- }
- 
- .cardapio-table {
-    display: flex;
-    flex-direction: column;
+.text {
     align-self: center;
- }
-
- .cardapio {
-    display: flex;
-    flex-direction: row;
-    gap: 3.75rem;
-    padding-bottom: 1.5625rem;
- }
-
- .text {
-    width: 37.5rem;
-    align-self: center;
- }
-
- .hidden {
-    display: none;
+    width: 530px;
+    text-align: justify;
 }
 /*end main*/
 
 /*footer*/
 footer {
+    font-family: 'rounded';
+    color: #8B4513;
     display: flex;
     flex-direction: row;
     background-color: #F3752B;
@@ -164,12 +131,3 @@ footer {
 }
 /*end footer*/
 
-@media (max-height: 900px) {
-    .main-section {
-        padding: 20px 70px 20px;
-    }
-    
-    .title {
-        padding-bottom: 10px;
-    }
-}

@@ -1,3 +1,13 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'rounded';
+    src: url(/fontes/Fredoka-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'rounded1';
+    src: url(/fontes/Quicksand-VariableFont_wght.ttf);
+}
+
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -16,6 +26,7 @@ html, body {
 
 /*nav*/
 header {
+    font-family: 'rounded';
     display: flex;
     flex-direction: row;
     background-color: #F3752B;
@@ -67,6 +78,8 @@ nav {
 
 /*main*/
 main {
+    font-family: 'rounded1';
+    color: #8B4513;
     display: flex;
     background-color: #F7DBA7;
     width: 100%;
@@ -87,7 +100,7 @@ fieldset {
 }
 
 legend {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'rounded';
     font-size: 25px;
     font-weight: bold;
     text-align: center;
@@ -102,12 +115,13 @@ legend {
 }
 
 .border {
+    font-family: 'rounded1';
     border-radius: 15px;
-    border: 1px solid #929292;
+    border: 1px solid #8B4513;
     height: 2.8125rem;
     padding: 0 3.4375rem;
     font-weight: bold;
-    color: #929292;
+    color: #8B4513;
     font-size: 20px;
 }
 
@@ -174,19 +188,21 @@ legend {
 .button {
     width: 14.375rem;
     align-self: center;
-    color: black;
-    background-color: #D9D9D9;
+    color: #F7DBA7;
+    background-color: #F3752B;
     border: none;
     cursor: pointer;
 }
 
 .button:hover {
-    background-color: #929090;
+    background-color: #f39661;
 }
 /*end main*/
 
 /*footer*/
 footer {
+    font-family: 'rounded';
+    color: #8B4513;
     display: flex;
     flex-direction: row;
     background-color: #F3752B;
