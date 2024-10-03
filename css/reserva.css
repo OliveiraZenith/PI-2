@@ -78,6 +78,8 @@ nav {
 
 /*main*/
 main {
+    background-image: url(/background/fundo5.png);
+    background-size: cover;
     font-family: 'rounded1';
     color: #8B4513;
     display: flex;
@@ -88,7 +90,7 @@ main {
 }
 
 .table-reserva {
-    background-color: #FFFFFF;
+    background-color: #ffffff7c;
     border-radius: 30px;
     width: 42.1875rem;
     margin: 1.5625rem 0;

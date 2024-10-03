@@ -74,6 +74,8 @@ nav {
 
 /*main*/
 main {
+    background-image: url(/background/fundo5.png);
+    background-size: cover;
     font-family: 'rounded1';
     color: #8B4513;
     display: flex;
@@ -85,7 +87,7 @@ main {
 }
 
 .main-section {
-    background-color: #FFFFFF;
+    background-color: #ffffff7c;
     display: flex;
     flex-direction: column;
     justify-content: center;
