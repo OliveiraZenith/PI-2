@@ -158,22 +158,19 @@ legend {
 }
 
 .email {
-    background-image: url(images/reserva/icon-email.png);
+    background-image: url(/images/login/mail.png);
     background-repeat: no-repeat;
-    background-position: 1.5625rem;
+    background-position: 1rem;
+    background-size: 28px;
 }
 
 .password{
-    background-image: url(images/reserva/icon-email.png);
+    background-image: url(/images/login/key.png);
     background-repeat: no-repeat;
-    background-position: 1.5625rem;
+    background-position: 1rem;
+    background-size: 28px;
 }
 
-.textarea {
-    height: 5.3125rem;
-    padding-top: 0.625rem;
-    resize: none;
-}
 
 .button {
     width: 14.375rem;

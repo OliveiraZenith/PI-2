@@ -128,15 +128,17 @@ legend {
 }
 
 .number {
-    background-image: url(images/reserva/icon-peaple.png);
+    background-image: url(/images/reserva/people.png);
     background-repeat: no-repeat;
-    background-position: 1.5625rem;
+    background-position: 1rem;
+    background-size: 28px;
 }
 
 .date {
-    background-image: url(images/reserva/icon-calendar.png);
+    background-image: url(/images/reserva/calendar.png);
     background-repeat: no-repeat;
-    background-position: 1.5625rem;
+    background-position: 1rem;
+    background-size: 28px;
 }
 
 .date::-webkit-calendar-picker-indicator {
@@ -152,9 +154,10 @@ legend {
 }
 
 .time {
-    background-image: url(images/reserva/icon-time.png);
+    background-image: url(/images/reserva/clock.png);
     background-repeat: no-repeat;
-    background-position: 1.5625rem;
+    background-position: 1rem;
+    background-size: 28px;
 }
 
 .time::-webkit-calendar-picker-indicator {
@@ -170,18 +173,24 @@ legend {
 }
 
 .text {
-    background-image: url(images/reserva/icon-name.png);
+    background-image: url(/images/reserva/profile.png);
     background-repeat: no-repeat;
-    background-position: 1.5625rem;
+    background-position: 1rem;
+    background-size: 28px;
 }
 
 .email {
-    background-image: url(images/reserva/icon-email.png);
+    background-image: url(/images/reserva/mail.png);
     background-repeat: no-repeat;
-    background-position: 1.5625rem;
+    background-position: 1rem;
+    background-size: 28px;
 }
 
 .textarea {
+    background-image: url(/images/reserva/write.png);
+    background-repeat: no-repeat;
+    background-position: 1rem;
+    background-size: 28px;
     height: 5.3125rem;
     padding-top: 0.625rem;
     resize: none;

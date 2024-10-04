@@ -151,21 +151,24 @@ legend {
 }
 
 .nome {
-    background-image: url(images/reserva/icon-email.png);
+    background-image: url(/images/cadastro/profile.png);
     background-repeat: no-repeat;
-    background-position: 1.5625rem;
+    background-position: 1rem;
+    background-size: 28px;
 
 }
 .email {
-    background-image: url(images/reserva/icon-email.png);
+    background-image: url(/images/cadastro/mail.png);
     background-repeat: no-repeat;
-    background-position: 1.5625rem;
+    background-position: 1rem;
+    background-size: 28px;
 }
 
 .password{
-    background-image: url(images/reserva/icon-email.png);
+    background-image: url(/images/cadastro/key.png);
     background-repeat: no-repeat;
-    background-position: 1.5625rem;
+    background-position: 1rem;
+    background-size: 28px;
 }
 
 .textarea {
