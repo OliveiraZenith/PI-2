@@ -106,7 +106,7 @@ main {
     width: 50.1875rem;
     height: 27rem;
     margin: 5.5625rem 0;
-    margin-top: 8rem;
+    margin-top: auto;
 }
 
 .img {

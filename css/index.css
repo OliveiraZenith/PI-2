@@ -119,10 +119,11 @@ main {
 .table-index {
     background-color: #ffffff7c;
     border-radius: 30px;
-    width: 62.1875rem; /* Tente usar 100% ou 90% para se ajustar ao container */
-    max-height: 70vh; /* Limite a altura da tabela */
+    width: 62.1875rem; 
+    height: 27rem;
+    max-height: 70vh; 
     margin: 5.5625rem 0;
-    margin-top: 20px;
+    margin-top: 9,5rem;
 }
 
 .main-section {

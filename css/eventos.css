@@ -86,19 +86,36 @@ main {
     padding: 9.375rem 0 1.875rem;
 }
 
-.first-section {
-    display: flex;
-    flex-direction: row;
-    gap: 6.5625rem;
-    align-items: center;
+.table-evento {
+    width: 80%;
     justify-content: center;
-    margin-bottom: 7.5rem;
+}
+
+table {
+    margin-left: 10rem;
+    width: 75%;
+    margin-bottom: 2rem; /* Espaçamento entre tabelas */
+    border-spacing: 1rem; /* Espaçamento entre células */
+    background-color: #ffffff7c;
+    border-radius: 20px;
+}
+
+td {
+    padding: 1rem;
+    vertical-align: top; /* Alinha o conteúdo no topo da célula */
+}
+
+h2 {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
 }
 
 .img {
     align-self: center;
     align-items: center;
     justify-content: center;
+    box-shadow: 8px 8px 8px rgba(68, 68, 68, 0.5);
+    border-radius: 20px;
 
 }
 
