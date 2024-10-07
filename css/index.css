@@ -84,10 +84,10 @@ nav {
 /*main*/
 main {
     font-family: 'rounded1';
-    color: #8B4513;
+    color: rgb(59, 21, 4);
     display: flex;
     flex-direction: row;
-    background-image: url(/images/background/fundo5.png);
+    background-image: url(/images/index/back3.png);
     background-size: cover; /* Mantém a proporção da imagem */
     background-position: center; /* Centraliza a imagem de fundo */
     width: 100%;
